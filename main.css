@@ -1,0 +1,47 @@
+a {
+  font-family: 'Josefin Sans';
+}
+body {
+  background-image: url("./assets/images/scape.JPG");
+}
+body #home {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 40px 0;
+  width: 100%;
+  background-color: #202020;
+  opacity: 0.8;
+}
+body #home h1 {
+  font-size: 50px;
+  font-family: 'Josefin Sans';
+  color: #f9f9f9;
+}
+body #home h2 {
+  font-size: 30px;
+  font-family: 'Josefin Sans';
+  color: #f9f9f9;
+}
+body #home .btn-warning {
+  background-color: #428bca;
+  border-color: #1060aa;
+}
+body #home .btn-warning:hover {
+  background-color: #929ccc;
+  color: #202020;
+}
+body #contact {
+  background-color: #202020;
+  color: #428bca;
+  font-family: 'Josefin Sans';
+  padding-bottom: 20px;
+}
+body #contact #social-icon a {
+  margin-right: 5px;
+}
+body #footer {
+  font-size: 20px;
+  font-family: 'Josefin Sans';
+  text-align: center;
+  background-color: #f9f9f9;
+}
