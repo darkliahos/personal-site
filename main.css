@@ -2,11 +2,11 @@ a {
   font-family: 'Josefin Sans';
 }
 body {
+  font-family: 'Josefin Sans';
   background-image: url("./assets/images/scape.JPG");
 }
 body #home {
   margin-top: 30px;
-  margin-bottom: 5px;
   padding: 40px 0;
   width: 100%;
   background-color: #202020;
@@ -14,7 +14,6 @@ body #home {
 }
 body #home h1 {
   font-size: 50px;
-  font-family: 'Josefin Sans';
   color: #f9f9f9;
 }
 body #home h2 {
@@ -32,12 +31,48 @@ body #home .btn-warning:hover {
 }
 body #about {
   background-color: #428bca;
-  font-family: 'Josefin Sans';
   color: #f9f9f9;
   padding: 40px 0;
 }
 body #about h4 {
   padding-bottom: 20px;
+}
+body #experience {
+  background-color: #202020;
+  padding: 20px 0;
+  opacity: 0.8;
+}
+body #experience p {
+  font-size: 14px;
+}
+body #experience h2 {
+  text-align: center;
+  color: #f9f9f9;
+  margin-bottom: 30px;
+}
+body #experience .left-exp {
+  width: 45%;
+  border: #c5cfff 3px solid;
+  padding: 28px;
+  background: #efefef;
+}
+body #experience .right-exp {
+  width: 45%;
+  margin-left: 52%;
+  border: #c5cfff 3px solid;
+  padding: 28px;
+  background: #efefef;
+}
+@media only screen and (max-width: 600px) {
+  body #experience .left-exp {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body #experience .right-exp {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 body #contact {
   background-color: #302020;
@@ -47,6 +82,22 @@ body #contact {
 }
 body #contact #social-icon a {
   margin-right: 5px;
+}
+body #personal-projects {
+  background-color: #428bca;
+  color: #f9f9f9;
+}
+body #personal-projects .personalitems {
+  margin-top: 10px;
+}
+body #personal-projects .bottom {
+  margin-top: 11px;
+}
+body #personal-projects .bottom a {
+  font-size: 24px;
+}
+body #personal-projects ul li {
+  list-style: none;
 }
 body #footer {
   font-size: 20px;
