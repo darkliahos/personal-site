@@ -90,8 +90,8 @@
     <div id="nav">
       <router-link to="/">HOME</router-link> |
       <router-link to="/about">ABOUT ME</router-link> |
-      <router-link to="/projects">PROJECTS</router-link> |
-      <router-link to="/career">CAREER</router-link> |
+      <router-link to="/projects">PAST PROJECTS</router-link> |
+      <router-link to="/services">SERVICES</router-link> |
       <router-link to="/musings">MUSINGS</router-link>
     </div>
     <router-view />

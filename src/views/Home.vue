@@ -39,7 +39,7 @@
           Affordability
         </div>
         <div>
-          We know coding time can be expensive, we have some premade templates which we won't bill you for, we will make sure we can make turning your idea into reality without breaking the bank. We give an upfront estimate with our projects and break down costs, we aim to use the cheapest most reliable services. 
+          We know coding time can be expensive, we have some premade templates which we won't bill you for, we will make sure we can make turning your idea into reality without breaking the bank. We give an upfront estimate with our projects and break down costs, we aim to use the most reliable services without burning a hole in your wallet. 
         </div>
       </div>
     </div>
@@ -55,12 +55,12 @@ export default class Home extends Vue {}
 
 <style lang="less">
 .home{
-  background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg");
+  background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.png");
     background-repeat: no-repeat;
   background-size: auto;
   .content{
-    padding: 90px 245px 45px 45px;
-    margin-left:450px;
+    padding: 40px 245px 45px 45px;
+    margin-left:250px;
     font-family: 'Barlow Condensed', sans-serif;
     .title{
       font-size: 36px;

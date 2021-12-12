@@ -1,16 +1,16 @@
 <template>
   <div class="Musings">
-    <TopBar/>
+    <TweetDeck/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import TopBar from "@/components/TopBar.vue"; // @ is an alias to /src
+import TweetDeck from "@/components/TweetDeck.vue"; // @ is an alias to /src
 
 @Component({
   components: {
-    TopBar
+    TweetDeck
   }
 })
 export default class Musings extends Vue {}
