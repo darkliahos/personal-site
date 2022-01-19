@@ -1,9 +1,5 @@
 <template>
-  <a
-    class="twitter-timeline"
-    href="https://twitter.com/darkliahos?ref_src=twsrc%5Etfw"
-    >Tweets by darkliahos</a
-  >
+<a class="twitter-timeline" data-width="300" data-theme="dark" href="https://twitter.com/darkliahos?ref_src=twsrc%5Etfw">Tweets by darkliahos</a>
 </template>
 
 <script lang="ts">
@@ -26,7 +22,7 @@ export default class TweetDeck extends Vue {
 
 <style lang="less">
 .timeline-Widget {
-  width: 476px;
+  width: 46px;
   margin-left: 40px;
 }
 </style>
