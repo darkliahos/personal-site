@@ -1,11 +1,45 @@
 <template>
   <div class="home">
-    <h4>
-      Hi, I am Sohail, I am a freelance full stack developer based in the UK,
-      highly expirenced in developing bespoke websites, applications and
-      anything in between.
-    </h4>
-    <Button>Hire me</Button>
+    <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      controls
+      indicators
+      background="#ababab"
+      img-width="1024"
+      img-height="480"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+      <!-- Slides with custom text -->
+      <b-carousel-slide img-src="/img/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg">
+        <h2>
+          Hi, I am Sohail, I am a freelance full stack developer based in the
+          UK, highly expirenced in developing bespoke websites, applications and
+          anything in between.
+        </h2>
+        <b-button variant="warning">Hire me</b-button>
+      </b-carousel-slide>
+
+      <!-- Slides with image only -->
+      <b-carousel-slide img-src="/img/osman-rana-G7VN8NadjO0-unsplash.jpg">
+        <h2>
+          Take a look at some of the services that I can offer to any of your
+          projects or ideas.
+        </h2>
+        <b-button variant="warning">Services</b-button></b-carousel-slide
+      >
+
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58">
+        <h2>
+          Not sure if I have expirience you are looking for? Why not browse my
+          past projects
+        </h2>
+        <b-button variant="warning">Past Projects</b-button></b-carousel-slide
+      >
+    </b-carousel>
   </div>
 </template>
 
@@ -15,8 +49,8 @@ import TweetDeck from "@/components/TweetDeck.vue"; // @ is an alias to /src
 
 @Component({
   components: {
-    TweetDeck
-  }
+    TweetDeck,
+  },
 })
 export default class Home extends Vue {}
 </script>
@@ -25,17 +59,17 @@ export default class Home extends Vue {}
 .home {
   h4 {
     margin: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  h2 {
+    font-family: "Barlow Condensed", sans-serif;
   }
   iframe {
     float: right;
   }
 
-  button{
-        padding: 20px;
-    background-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    border: #fff 1px solid;
+  button {
+    font-family: "Barlow Condensed", sans-serif;
   }
 }
 </style>

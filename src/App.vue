@@ -21,7 +21,7 @@ body {
   background-color: #131313;
 }
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #131313;
@@ -42,7 +42,7 @@ body {
   }
   #nav {
     padding: 0px 20px;
-    font-family: "Poiret One";
+    font-family: "Barlow Condensed", sans-serif;
     display: inline-block;
     position: absolute;
     top: 35px;

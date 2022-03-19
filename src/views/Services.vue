@@ -43,14 +43,17 @@ export default class Services extends Vue {}
   background-repeat: no-repeat;
   background-size: auto;
   h3 {
+    font-family: "Barlow Condensed", sans-serif;
     margin: 20px 20px;
   }
 
   h4 {
+    font-family: "Barlow Condensed", sans-serif;
     margin: 20px 20px;
   }
 
   p {
+    font-family: "Barlow Condensed", sans-serif;
     margin: 20px 20px;
   }
 }
