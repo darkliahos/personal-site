@@ -2,7 +2,7 @@
   <div class="about">
     <div class="content">
       <div class="title">
-        Your ideas | My Passion
+        Your ideas | Our Passion
       </div>
       <div class="leading">
         We are all passionate about our ideas but finding someone with the

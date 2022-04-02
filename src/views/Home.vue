@@ -14,7 +14,7 @@
       @sliding-end="onSlideEnd"
     >
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="/img/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg">
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=0">
         <h2>
           Hi, I am Sohail, I am a freelance full stack developer based in the
           UK, highly expirenced in developing bespoke websites, applications and
@@ -24,7 +24,7 @@
       </b-carousel-slide>
 
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="/img/osman-rana-G7VN8NadjO0-unsplash.jpg">
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=1033">
         <h2>
           Take a look at some of the services that I can offer to any of your
           projects or ideas.

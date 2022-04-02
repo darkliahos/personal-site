@@ -12,12 +12,23 @@
       </div>
     </div>
     <router-view />
-    <div>Footer</div>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/sohail-nasir-1564881a0/">
+        <img src="./assets/linkedin-icon-0797ff-48.png" />
+      </a>
+      <a href="https://github.com/darkliahos">
+        <img src="./assets/github-icon-13-800080-48.png" />
+      </a>
+      <a href="https://twitter.com/darkliahos">
+        <img src="./assets/twitter-icon-28e5ff-48.png" />
+      </a>
+    </div>
+    <div class="copyright">© 2022 Sohail Nasir. All rights reserved</div>
   </div>
 </template>
 
 <style lang="less">
-body {
+html {
   background-color: #131313;
 }
 #app {
@@ -26,6 +37,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #131313;
   color: #ffffff;
+  img {
+    margin: 15px;
+  }
+  .links {
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
 }
 .top {
   display: block;

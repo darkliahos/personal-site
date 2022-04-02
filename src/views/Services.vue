@@ -1,32 +1,34 @@
 <template>
   <div class="service">
-    <h3>My Services</h3>
-    <p>
-      I offer a few development services, which if you are interested I can
-      tailor a quote to meet your needs
-    </p>
-    <h4>Websites</h4>
-    <p>
-      I can work on many different types of websites, here are some examples
-      below:
-    </p>
-    <ul>
-      <li>Personal portfolios</li>
-      <li>Small business websites</li>
-      <li>E-commerce/e-shops</li>
-    </ul>
-    <h4>Applications</h4>
-    <p>
-      I have spent most of my career in developing desktop applications, I have
-      also worked on web applications for various companies
-    </p>
+    <div class="content">
+      <div class="title">My Services</div>
+      <div class="blurb">
+        I offer a few development services, which if you are interested I can
+        tailor a quote to meet your needs
+      </div>
+      <div class="leading">Websites</div>
+      <div class="blurb">
+        I can work on many different types of websites, here are some examples
+        below:
+      </div>
+      <ul>
+        <li>Personal portfolios</li>
+        <li>Small business websites</li>
+        <li>E-commerce/e-shops</li>
+      </ul>
+      <div class="leading">Applications</div>
+      <div class="blurb">
+        I have spent most of my career in developing desktop applications, I
+        have also worked on web applications for various companies
+      </div>
 
-    <h4>Maintaining existing applications</h4>
-    <p>
-      If you have an existing application and hold the sourcecode for it and
-      need a feature or even some bug fixes around the application, this is
-      something I can accomedaite.
-    </p>
+      <div class="leading">Maintaining existing applications</div>
+      <div class="blurb">
+        If you have an existing application and hold the sourcecode for it and
+        need a feature or even some bug fixes around the application, this is
+        something I can accomedaite.
+      </div>
+    </div>
   </div>
 </template>
 
@@ -39,22 +41,33 @@ export default class Services extends Vue {}
 
 <style lang="less">
 .service {
-  background-image: url("../assets/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+  background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.png");
   background-repeat: no-repeat;
   background-size: auto;
-  h3 {
-    font-family: "Barlow Condensed", sans-serif;
-    margin: 20px 20px;
+}
+.content {
+  padding: 40px 245px 45px 45px;
+  margin-left: 250px;
+  font-family: "Barlow Condensed", sans-serif;
+  .title {
+    font-size: 36px;
   }
-
-  h4 {
-    font-family: "Barlow Condensed", sans-serif;
-    margin: 20px 20px;
+  .leading {
+    font-size: 26px;
+    padding: 15px 0;
   }
-
-  p {
-    font-family: "Barlow Condensed", sans-serif;
-    margin: 20px 20px;
+  .blurb {
+    font-size: 20px;
+    padding: 15px 0;
+  }
+  .tennet {
+    padding: 15px 0;
+    .title {
+      font-size: 22px;
+    }
+    .blurb {
+      font-size: 18px;
+    }
   }
 }
 </style>

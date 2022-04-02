@@ -4,6 +4,34 @@
       <div class="title">
         Past projects
       </div>
+      <div class="leading">
+        Project Luna
+      </div>
+      <div class="blurb">
+        Commisioned as a tool where business owners or data science staff could
+        look at people who are engaging with their posts on Linked in. 
+      </div>
+      <div class="blurb">
+        I worked on a tool written in Python to scrape data and process it for
+         use on a companies' analytics page. 
+      </div>
+      <div class="leading">
+        Bubblebutt Fitness
+      </div>
+      <div class="blurb">
+        Worked with them as a client in 2018, it was a start up selling fitness
+        equitment for use in a home gym. This was stuff like yoga mats, medicine
+        balls, etc.
+      </div>
+      <div class="blurb">
+        Worked on their e-shop which allowed customers to buy products, had an
+        inventory management system and a small admin area where the owners 
+        could make changes if needed.
+      </div>
+      <div class="blurb">
+        Sadly the company is no more, however if I get permission, 
+        I will include an archived copy of the website on this site in future.
+      </div>
     </div>
   </div>
 </template>
