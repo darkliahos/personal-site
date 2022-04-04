@@ -9,11 +9,11 @@
       </div>
       <div class="blurb">
         Commisioned as a tool where business owners or data science staff could
-        look at people who are engaging with their posts on Linked in. 
+        look at people who are engaging with their posts on Linked in.
       </div>
       <div class="blurb">
         I worked on a tool written in Python to scrape data and process it for
-         use on a companies' analytics page. 
+        use on a companies' analytics page.
       </div>
       <div class="leading">
         Bubblebutt Fitness
@@ -25,12 +25,12 @@
       </div>
       <div class="blurb">
         Worked on their e-shop which allowed customers to buy products, had an
-        inventory management system and a small admin area where the owners 
+        inventory management system and a small admin area where the owners
         could make changes if needed.
       </div>
       <div class="blurb">
-        Sadly the company is no more, however if I get permission, 
-        I will include an archived copy of the website on this site in future.
+        Sadly the company is no more, however if I get permission, I will
+        include an archived copy of the website on this site in future.
       </div>
     </div>
   </div>
@@ -38,14 +38,22 @@
 
 <style lang="less">
 .about {
-  background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+  @media screen and (min-width: 981px) {
+    background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
 }
 .content {
-  padding: 40px 245px 45px 45px;
-  margin-left: 250px;
   font-family: "Barlow Condensed", sans-serif;
+  @media screen and (max-width: 980px) {
+    padding: 45px 70px 45px 0;
+    margin-left: 70px;
+  }
+  @media screen and (min-width: 981px) {
+    padding: 40px 245px 45px 45px;
+    margin-left: 250px;
+  }
   .title {
     font-size: 36px;
   }

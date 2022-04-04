@@ -54,19 +54,34 @@ html {
     padding: 20px;
     color: #d2dfa3;
     font-family: "Poiret One";
-    display: inline-block;
+    @media screen and (max-width: 580px) {
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    @media screen and (min-width: 581px) {
+      display: inline-block;
+    }
     svg {
       display: block;
       margin: auto;
     }
   }
   #nav {
-    padding: 0px 20px;
     font-family: "Barlow Condensed", sans-serif;
-    display: inline-block;
-    position: absolute;
-    top: 35px;
-    right: 0px;
+    @media screen and (max-width: 580px) {
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    @media screen and (min-width: 581px) {
+      display: inline-block;
+      padding: 0px 20px;
+      position: absolute;
+      top: 35px;
+      right: 0px;
+    }
+
     a {
       font-weight: bold;
       color: #ffffff;
