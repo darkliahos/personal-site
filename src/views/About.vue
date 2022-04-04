@@ -61,14 +61,22 @@
 
 <style lang="less">
 .about {
-  background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.png");
-  background-repeat: no-repeat;
-  background-size: auto;
+  @media screen and (min-width: 981px) {
+    background-image: url("../assets/alessandro-bianchi-_kdTyfnUFAc-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
 }
 .content {
-  padding: 40px 245px 45px 45px;
-  margin-left: 250px;
   font-family: "Barlow Condensed", sans-serif;
+  @media screen and (max-width: 980px) {
+    padding: 45px 70px 45px 0;
+    margin-left: 70px;
+  }
+  @media screen and (min-width: 981px) {
+    padding: 40px 245px 45px 45px;
+    margin-left: 250px;
+  }
   .title {
     font-size: 36px;
   }
