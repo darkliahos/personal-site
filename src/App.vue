@@ -8,7 +8,8 @@
         <router-link to="/">HOME</router-link> |
         <router-link to="/about">MY MISSION</router-link> |
         <router-link to="/projects">PAST PROJECTS</router-link> |
-        <router-link to="/services">SERVICES</router-link>
+        <router-link to="/services">SERVICES</router-link> |
+        <router-link to="/contact">CONTACT</router-link>
       </div>
     </div>
     <router-view />
