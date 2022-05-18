@@ -5,55 +5,43 @@
         Contact me
       </div>
       <div class="leading">
-          Looking to hire me, want to know a bit more on what I can help you with?
+        Looking to hire me, want to know a bit more on what I can help you with?
       </div>
-      <div class="blurb">
-        I take my slogan seriously, I understand that an idea is precious and I
-        will do our utmost to deliver your grand vision in front of your eyes.
-        Keep reading to see how this can be acheived.
-      </div>
-      <div class="tennet">
-        <div class="title">
-          Communication
+      <form>
+        <div class="form-group">
+          <label for="txt-email">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="txt-email"
+            v-model="email"
+            aria-describedby="emailHelp"
+            placeholder="someone@something.com"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >I'll never share your email with anyone else.</small
+          >
         </div>
-        <div>
-          From our first consulation to the final delivery we will aim to make
-          sure to give regular updates, have friendly chats and take you through
-          the progress of turning your idea into something we are all proud of.
+        <div class="form-group">
+          <label for="txt-subject">Subject</label>
+          <input
+            v-model="subject"
+            class="form-control"
+            id="txt-subject"
+            placeholder="Quote for some work"
+          />
         </div>
-      </div>
-      <div class="tennet">
-        <div class="title">
-          Quality
+        <div class="form-group">
+          <label for="txt-details">Details</label>
+          <textarea
+            class="form-control"
+            id="txt-details"
+            v-model="details"
+            placeholder="I would like a cool website with some cool features"
+          />
         </div>
-        <div>
-          I pride myself with making sure we produce top quality code, using the
-          latest and most stable technology out there. We are confident of our
-          workmanship that is why we offer a complamentary warranty period of 3
-          months after delivery.
-        </div>
-      </div>
-      <div class="tennet">
-        <div class="title">
-          Evoloution
-        </div>
-        <div>
-          We know ideas can evolve as you see your vision take shape and we will
-          accomodaite changes that may occur whilst development takes place.
-        </div>
-      </div>
-      <div class="tennet">
-        <div class="title">
-          Affordability
-        </div>
-        <div>
-          We know coding time can be expensive, I have some premade templates
-          which I won't bill you for, I will make sure we can make turning your
-          idea into reality without breaking the bank. We give an upfront
-          estimate with our projects and break down costs, we aim to use the
-          most reliable services without burning a hole in your wallet.
-        </div>
-      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </div>
 </template>
