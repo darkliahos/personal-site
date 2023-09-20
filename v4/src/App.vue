@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import Headline from "./components/Headline.vue";
 import Topbar from "./components/Topbar.vue";
 </script>
 
 <template>
   <Topbar />
   <div></div>
-  <HelloWorld msg="Darkliahos Web Design" />
+  <Headline />
 </template>
